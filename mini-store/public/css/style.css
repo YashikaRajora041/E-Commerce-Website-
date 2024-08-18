@@ -1,0 +1,80 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#updateionForm{
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-social{
+    border-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.btn-social:hover{
+    color: #fff;
+}
+
+.btn-google{
+    color: #fff;
+    background-color: rgb(221, 75, 57);
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-google:hover{
+    background-color: rgb(194, 51, 33);
+}
+
+.btn-facebook{
+    color: #fff;
+    background-color: rgb(24, 119, 242);;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-facebook:hover{
+    background-color: rgb(8, 84, 170);
+}
+
+.card-img-top {
+    width: 100%;
+    /* height: 15vw; */
+    object-fit: cover;
+}
+
+/* .warning{
+    color: red;
+}
+
+nav .menus{
+    display: flex;
+    align-items: center;
+}
+
+nav .menu-item{
+    margin: 5px 10px;
+}
+
+nav div form{
+    align-self: flex-end;
+} */
